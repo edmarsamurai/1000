@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Nossos Serviços</title>
+</head>
+<body>
+
+    <div onclick="voltarFormulario()" class="mascara-formulario"></div>
+
+    <header>
+        <img id="logo" src="./img/logo-header.png" alt="">
+        <a href="index.html">Home</a>
+        <a href="nossos-servicos.html">Nossos Serviços</a>
+        <a onclick="cliqueiNoBotao()">Fale Conosco</a>
+    </header>
+
+    <main>
+        <section class="esquerdo">
+            <h1>EMPRESA 100% FAMILIAR</h1>
+            <p>Consertar canos é a Nossa Diversão!</p>
+
+            <ul>
+                <li>Caça Vazamento.</li>
+                <li>Conserto e manutenção.</li>
+                <li>Desentupimento.</li>
+                <li>Instalação.</li>
+                <li>Outros.</li>
+            </ul>
+        </section>
+
+        <section class="direito">
+            <img src="./img/mario.png" alt="">
+        </section>
+    </main>
+
+    <div class="mascara"></div>
+
+    <a href="https://api.whatsapp.com/send?phone=554399813176" class="link">
+        <img src="./img/whatsapp.png" alt="contato">
+    </a>
+
+    <form class="formulario-fale-conosco" 
+          action="https://formcarry.com/s/-msuQh2a_8U" 
+          method="POST"
+          enctype="multipart/form-data">
+        <input placeholder="Seu nome" type="text" name="nome">
+        <input placeholder="Seu telefone" type="tel" name="telefone">
+        <textarea placeholder="Digite seu problema aqui" name="duvida"></textarea>
+        <button type="submit">Pedir Orçamento</button>
+    </form>
+    
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
